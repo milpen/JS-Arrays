@@ -71,7 +71,10 @@ return number%2 ===0;
 })
 
 console.log(11, filterEvenNumbers);
-//Задание 12
+//Задание 12+
 //Напишите функцию sortAndPrint, которая принимает копию массива randomNumbers с помощью оператора spread и сортирует его в порядке возрастания с использованием метода sort(). Затем выведите отсортированный массив чисел в консоль.
 let randomNumbers = [72, 45, 19, 84, 37, 56, 91, 23, 68, 10, 98, 32];
+const sortAndPrint = [...randomNumbers];
+sortAndPrint.sort((a, b) => a - b);
+console.log(12, sortAndPrint);
 
