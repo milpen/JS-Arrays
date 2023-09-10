@@ -1,0 +1,12 @@
+
+.title2,
+.title4,
+.text_grades {
+    text-align: center;
+}
+
+.show_text {
+    display: flex;
+    justify-content: center;
+}
+
