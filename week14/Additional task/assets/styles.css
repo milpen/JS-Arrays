@@ -1,0 +1,44 @@
+body {
+  background-image: url(./1675519405_foni-club-p-fon-krasivii-iz-kino-8.jpg);
+  background-size: cover;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  font-size: 28px;
+}
+.aboutDirector{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+.title{
+  font-size: 30px;
+  text-align: center;
+}
+
+.director__movies {
+  display: flex;
+  justify-content: space-between;
+}
+.name-info{
+  font-size: 20px;
+  font-weight: bold;
+}
+.career-info{
+  font-size: 14px;
+}
+.films {
+  font-size: 18px;
+}
+.best__movies-list {
+  text-align: center;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 18px;
+}
